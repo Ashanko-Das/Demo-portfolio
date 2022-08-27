@@ -156,7 +156,9 @@ padding: 1em;
     top: 3em;
     z-index: 100;
 }
-
+.nav-toggle:focus{
+    outline: none;
+}
 .nav-opened .nav{
     transform: translateX(0%);
 }
