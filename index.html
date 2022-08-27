@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- linking CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c69b2dd7a4.js" crossorigin="anonymous"></script>
+
+    <!-- linking JS file -->
+    <script src="./index.js" defer></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/LOGO.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+   </header>
+
+   <!-- My introduction -->
+   <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">Hi, I am <strong>Ashanko Das</strong> </h1>
+    <p class="section__desc section__desc--intro">Front End Dev</p>
+    <img src="./img/Twitter DP (2).png" alt="" class="intro--img">
+   </section>
+
+   <!-- My services -->
+   <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Website Development</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat ab sed veniam voluptatibus molestias, dolorum totam! Minima dolorem eaque optio Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem alias quasi, deserunt eius quam tenetur maiores corrupti esse accusantium ipsam.</p>
+        </div>
+        <div class="service">
+            <h3>Application Designing</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat ab sed veniam voluptatibus molestias, dolorum totam! Minima dolorem eaque optio Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem alias quasi, deserunt eius quam tenetur maiores corrupti esse accusantium ipsam.</p>
+        </div>
+        <div class="service">
+            <h3>Application Maintenance</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat ab sed veniam voluptatibus molestias, dolorum totam! Minima dolorem eaque optio Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem alias quasi, deserunt eius quam tenetur maiores corrupti esse accusantium ipsam.</p>
+        </div>
+    </div>
+    <a href="#work" class="btn">My work</a>
+   </section>
+
+   <!-- About me -->
+   <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__desc section__desc--about">Student and Web Developer from India</p>
+    <div class="about-me__body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur molestias voluptas nisi, minus ad vitae maiores totam, recusandae est itaque porro sed except.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus tenetur odio, provident incidunt repellendus amet corrupti iusto blanditiis recusandae.</p>
+    </div>
+    <img src="./img/DP.jpg" alt="" class="about-me__img">
+   </section>
+
+
+   <!-- My work -->
+   <section class="my-works" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section_desc section__desc--work">Some of my project works</p>
+    <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-01.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 2 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-02.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 3 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-03.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 4 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-04.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 5 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-05.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 6 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-06.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 7 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-07.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 8 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-08.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 9 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-09.jpg" alt="" class="portfolio__img">
+        </a>
+        <!-- Portfolio item 10 -->
+        <a href="./portfolio-item.html" class="portfolio__item">
+            <img src="./img/portfolio-10.jpg" alt="" class="portfolio__img">
+        </a>
+    </div>
+    
+   </section>
+
+<footer>
+    <a href="mailto:AshCodes@gmail.com" class="email-link">AshCodes@gmail.com</a>
+
+    <ul class="socials-list">
+        <li class="socials-list__item"><a href="https://www.linkedin.com/in/ashanko-das-ab7409209/" class="socials-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="socials-list__item"><a href="https://twitter.com/DasAshanko" class="socials-link" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="socials-list__item"><a href="https://github.com/Ashanko-Das" class="socials-link" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+</footer>
+</body>
+</html>
